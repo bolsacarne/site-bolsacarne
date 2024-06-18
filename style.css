@@ -1,33 +1,30 @@
 @font-face {
     font-family: 'MinhaFonteOTF';
-    src: url('/assets/fonnts.com-poster_cut_neue_regular-webfont.woff') format('opentype'); 
-    /* Adicione outras variações da fonte aqui, como bold, italic, etc., se necessário */
+    src: url('/assets/fonnts.com-poster_cut_neue_regular-webfont.woff') format('opentype');
 }
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 
 body,
 html {
     overflow-x: hidden;
     width: 100%;
-    font-family: 'MinhaFonteOTF', sans-serif; 
+    font-family: 'MinhaFonteOTF', sans-serif;
 }
-
 
 header {
     width: 100%;
     min-height: 500px;
-    background-image: url(/assets/banner3.png);
+    background-image: url('/assets/banner3.png');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;    
+    background-size: cover;
 }
 
 .container-video {
@@ -37,7 +34,6 @@ header {
     display: flex;
     justify-content: center;
     padding-top: 50px;
-    
 }
 
 .producao {
@@ -47,44 +43,40 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 50px 0 50px;
+    padding: 0 50px;
     text-align: center;
-    color: #FFC700;   
-          
+    color: #FFC700;
 }
 
 .smallcase {
-    font-size: 15px;    
+    font-size: 15px;
 }
-
-
 
 footer {
     width: 100%;
-    min-height: 100px;
+    min-height: 150px;
     background-color: #F40003;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 3px;    
+    gap: 5px;
     font-size: 15px;
-    font-family: "Open Sans", sans-serif;  
+    font-family: "Open Sans", sans-serif;
 }
 
 footer h1 {
     font-size: 15px;
-    font-family: "Open Sans", sans-serif;    
-    
+    font-family: "Open Sans", sans-serif;
 }
 
 footer img {
-    width: 700px;
-    height: 300px;
+    max-width: 100%;
+    height: 100px;
 }
 
 footer p a {
-    text-decoration: none; 
+    text-decoration: none;
     color: inherit;
 }
 
@@ -92,8 +84,9 @@ footer p:hover {
     cursor: pointer;
 }
 
-footer p, footer a {
-    font-family: "Open Sans", sans-serif;  
+footer p,
+footer a {
+    font-family: "Open Sans", sans-serif;
 }
 
 .copyright {
@@ -102,40 +95,44 @@ footer p, footer a {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    gap: 5px;    
+    gap: 5px;
 }
 
-@media(max-width: 1455px) {
-    header {
+@media (max-width: 1024px) {
+    header {        
         width: 100%;
-        height: 600px;
-        background-image: url(/assets/BANNER\ QUANDO\ O\ PRESIDENTE\ COMEU\ MINHA\ MAE\ \(980\ x\ 500\ px\).png);
+        min-height: 100px;
+        background-image: url('/assets/banner3.png');
         background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;    
-    }
-}
-
-
-@media(max-width: 480px) {
-    header {
-        width: 100%;
-        height: 400px;
-        background-image: url(/assets/BANNER\ QUANDO\ O\ PRESIDENTE\ COMEU\ MINHA\ MAE\ \(980\ x\ 500\ px\)\ \(320\ x\ 500\ px\).png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;    
+        
+        background-size: cover;
     }
 
     .container-video {
-        width: 100%;
-        min-height: 370px;
-        background-color: #FFC700;
-        display: flex;
-        justify-content: center;
-        padding: 0;   
-        align-items: center;     
-        
+        min-height: 600px;
+        padding-top: 30px;
+    }
+
+    .producao {
+        min-height: 200px;
+        padding: 0 30px;
+    }
+
+    footer img {
+        width: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        height: 520px;
+        background-image: url(/assets/BANNER\ QUANDO\ O\ PRESIDENTE\ COMEU\ MINHA\ MAE\ \(980\ x\ 500\ px\)\ \(320\ x\ 500\ px\).png);
+    }
+
+    .container-video {
+        min-height: 400px;
+        padding: 0;
+        align-items: center;
     }
 
     .video {
@@ -146,41 +143,40 @@ footer p, footer a {
     .producao {
         font-size: 10px;
         min-height: 200px;
-        padding: 0 10px 0 10px;
+        padding: 0 10px;
         text-align: center;
         padding-top: 20px;
     }
 
     .smallcase {
-        font-size: 10px;    
+        font-size: 10px;
     }
 
     footer {
         padding: 0 10px 10px 10px;
         font-size: 10px;
-        font-family: "Open Sans", sans-serif;  
+        font-family: "Open Sans", sans-serif;
     }
+
     footer img {
         width: 300px;
-        height: 200px;
+        height: auto;
     }
 
     footer h1 {
         font-size: 10px;
-        font-family: "Open Sans", sans-serif;         
-        
+        font-family: "Open Sans", sans-serif;
     }
-    
-    footer p, footer a {
-        font-family: "Open Sans", sans-serif; 
+
+    footer p,
+    footer a {
+        font-family: "Open Sans", sans-serif;
     }
-    
+
     .copyright {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
         text-align: center;
     }
-    
+
+
 }
+

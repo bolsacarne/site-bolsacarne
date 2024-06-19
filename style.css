@@ -106,7 +106,7 @@ footer a {
     }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1651px) {
     header {
         min-height: 500px; 
         background-image: url('/assets/banner3.png');

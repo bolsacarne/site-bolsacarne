@@ -185,7 +185,14 @@ footer a {
         background-position: center;        
         background-size: cover;
         background-repeat: no-repeat;
+        padding-top: 20px;
                    
+    }    
+
+    .espaco2 {
+        width: 100%;
+        height: 50px;
+        background-color: #FFC700;
     }
 
     .container-video {

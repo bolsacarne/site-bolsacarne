@@ -151,8 +151,8 @@ footer a {
 @media (max-width: 480px) {
     header {
         width: 100%;
-        min-height: 500px;
-        background-image: url(/assets/BANNER\ QUANDO\ O\ PRESIDENTE\ COMEU\ MINHA\ MAE\ \(980\ x\ 500\ px\)\ \(320\ x\ 500\ px\).png);                
+        min-height: 300px;
+        background-image: url(/assets/banner-mobile-quando-o-presidente-comeu-minha-mae.png);                
     }
 
     .container-video {

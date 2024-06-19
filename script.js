@@ -9,7 +9,7 @@ const hashData = (data) => {
 import sha256 from 'js-sha256';
 
 const enviarEventoConversao = async (nomeEvento, dadosUsuario, dadosCustomizados = {}) => {
-    const tokenAcesso = 'EAAVRlQlHYagBO6kbo9yZBJbRKbdnZBXoOY4YXeZAKvhUbDYHNcZAhCBFj3SbrBYZAh4M7cuXOqGB4KTO4rWREysjJJIHtxKyifW207EmkKexrh1CP0ZBhjqQgLYCZAKQERiD3ZB7OJTOd0g1MvUrNi1YMzyY6rZAS3syMrZClvlKkqwjOttl4kSXFxKIl41l2PoY9LpgZDZD';
+    const tokenAcesso = 'EAAVRlQlHYagBO7wdbeTh0kn28UBNSZAxjtpZBJD8S5aFt91U3PyLU0pg5G0k2wusqNTh99A4Dm5SFLR0jZBCGe8alHGJA1d88ffYR6469OljhxtSxjWzWZCxj4CpZBpZBxwbEiwAVYfiPNUZArspqhwFwb2XHlOmS4878LNua5zZC8rhr3H7NDUU4NI0vnVyzZC3cWQZDZD';
     const pixelId = '1178894173243034';
     const urlApi = `https://graph.facebook.com/v12.0/${pixelId}/events`;
 

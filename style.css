@@ -184,11 +184,14 @@ footer a {
         background-image: url('/assets/banner-mobile-quando-o-presidente-comeu-minha-mae.png');
         background-position: center;        
         background-size: cover;
-        background-repeat: no-repeat;
-        padding-top: 20px;
+        background-repeat: no-repeat;       
                    
     }    
-
+    .espaco1 {
+        width: 100%;
+        height: 23px;
+        background-color: #FFC700;
+    }
     .espaco2 {
         width: 100%;
         height: 50px;
